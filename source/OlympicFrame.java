@@ -1,8 +1,9 @@
-/* OlympicFrame.java - Asher Cota
+/* OlympicFrame.java - Asher Cota - ACO 102
 * 
 * Description:
 *
-* Creates "OlympicFrame" as an extension of JFrame, creates JButton, sets window size and adds the Olympic rings and JButton to JPanel
+* Creates "OlympicFrame" as an extension of JFrame, creates JButton, sets
+* window size and adds the Olympic rings and JButton to JPanel
 */
 
 import javax.swing.*;
@@ -29,7 +30,8 @@ public class OlympicFrame extends JFrame{
       panel.add(buttonSouth, BorderLayout.SOUTH);
       add(panel);
       
-      // Adds Olympic rings from OlympicDraw.java to the JPanel upon buttonSouth being clicked
+      /* Adds Olympic rings from OlympicDraw.java to the JPanel upon
+      buttonSouth being clicked */
       buttonSouth.addActionListener(new ActionListener(){
           public void actionPerformed(ActionEvent e){
               OlympicDraw ringComponent = new OlympicDraw();

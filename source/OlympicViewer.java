@@ -1,8 +1,9 @@
-/* OlympicViewer.java - Asher Cota
+/* OlympicViewer.java - Asher Cota - ACO 102
 * 
 * Description:
 *
-* Imports "OlympicFrame" from OlympicFrame.java, sets its title, close operation and visibility to true.
+* Imports "OlympicFrame" from OlympicFrame.java, sets its title, close
+* operation and visibility to true.
 */
 
 import javax.swing.*;
